@@ -72,7 +72,7 @@ function LoanApp() {
   return (
     <div className="container mx-auto mt-8 max-w-md">
       <h1 className="text-3xl font-bold text-center mb-4">
-        Business loan application
+        Business Loan Application
       </h1>
       <form
         onSubmit={handleSubmit(onSubmit)}
@@ -96,7 +96,7 @@ function LoanApp() {
           />
           {errors.name && (
             <span className="text-red-500 text-sm italic">
-              name can't be empty
+              Company name can't be empty
             </span>
           )}
         </div>
@@ -118,7 +118,7 @@ function LoanApp() {
           />
           {errors.yearEstablished && (
             <span className="text-red-500 text-sm italic">
-              year Established can't be empty
+              Year established can't be empty
             </span>
           )}
         </div>
