@@ -110,6 +110,7 @@ function LoanApp() {
           <input
             type="text"
             id="yearEstablished"
+            placeholder="year established"
             className={`shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline form-input ${
               errors.yearEstablished ? 'border-red-500' : ''
             }`}
@@ -132,6 +133,7 @@ function LoanApp() {
           <input
             type="number"
             id="loanAmount"
+            placeholder="loan amount"
             className={`shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline form-input ${
               errors.loanAmount ? 'border-red-500' : ''
             }`}
@@ -152,6 +154,7 @@ function LoanApp() {
           </label>
           <select
             id="accountingProvider"
+            placeholder="choose an accounting provider"
             className={`shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline form-input ${
               errors.accountingProvider ? 'border-red-500' : ''
             }`}
